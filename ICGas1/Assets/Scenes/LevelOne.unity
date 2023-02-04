@@ -332,7 +332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mat:
-  - {fileID: 2100000, guid: 3f6ea6b233ba1514c841f30fece64aa2, type: 2}
+  - {fileID: 2100000, guid: 3c63488a1c5ccec4182795681248a2f0, type: 2}
   - {fileID: 2100000, guid: bdc6294f259f95d4aa9fdc7cff871399, type: 2}
   - {fileID: 2100000, guid: 54352c68e44f02e4b8b968f973b6d34d, type: 2}
   - {fileID: 2100000, guid: df57d86f6f80bd445b6f72e73a918320, type: 2}
@@ -643,7 +643,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mat:
-  - {fileID: 2100000, guid: 3f6ea6b233ba1514c841f30fece64aa2, type: 2}
+  - {fileID: 2100000, guid: 3c63488a1c5ccec4182795681248a2f0, type: 2}
   - {fileID: 2100000, guid: bdc6294f259f95d4aa9fdc7cff871399, type: 2}
   - {fileID: 2100000, guid: 54352c68e44f02e4b8b968f973b6d34d, type: 2}
   - {fileID: 2100000, guid: df57d86f6f80bd445b6f72e73a918320, type: 2}
@@ -699,7 +699,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: cd03e6898b8adc4438eb41109f6985d3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1051,7 +1051,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mat:
-  - {fileID: 2100000, guid: 3f6ea6b233ba1514c841f30fece64aa2, type: 2}
+  - {fileID: 2100000, guid: 3c63488a1c5ccec4182795681248a2f0, type: 2}
   - {fileID: 2100000, guid: bdc6294f259f95d4aa9fdc7cff871399, type: 2}
   - {fileID: 2100000, guid: 54352c68e44f02e4b8b968f973b6d34d, type: 2}
   - {fileID: 2100000, guid: df57d86f6f80bd445b6f72e73a918320, type: 2}
@@ -1375,7 +1375,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mat:
-  - {fileID: 2100000, guid: 3f6ea6b233ba1514c841f30fece64aa2, type: 2}
+  - {fileID: 2100000, guid: 3c63488a1c5ccec4182795681248a2f0, type: 2}
   - {fileID: 2100000, guid: bdc6294f259f95d4aa9fdc7cff871399, type: 2}
   - {fileID: 2100000, guid: 54352c68e44f02e4b8b968f973b6d34d, type: 2}
   - {fileID: 2100000, guid: df57d86f6f80bd445b6f72e73a918320, type: 2}
@@ -1476,7 +1476,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43d65830f7b54924396e9276443b6e48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_renderMaterial: {fileID: 2100000, guid: 7725b54f9358f8d4bbac328c6e46b787, type: 2}
+  m_renderMaterial:
+  - {fileID: 2100000, guid: ddfe839759f03cf499f03d9a70725a78, type: 2}
+  - {fileID: 2100000, guid: 7725b54f9358f8d4bbac328c6e46b787, type: 2}
+  - {fileID: 2100000, guid: bd82598b99143b74eaeb838d5e4a4e95, type: 2}
 --- !u!1 &1005304248 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3078492729871012647, guid: 769892456361c7240a39495d51810687, type: 3}
@@ -1495,7 +1498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mat:
-  - {fileID: 2100000, guid: 3f6ea6b233ba1514c841f30fece64aa2, type: 2}
+  - {fileID: 2100000, guid: 3c63488a1c5ccec4182795681248a2f0, type: 2}
   - {fileID: 2100000, guid: bdc6294f259f95d4aa9fdc7cff871399, type: 2}
   - {fileID: 2100000, guid: 54352c68e44f02e4b8b968f973b6d34d, type: 2}
   - {fileID: 2100000, guid: df57d86f6f80bd445b6f72e73a918320, type: 2}
@@ -1869,7 +1872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mat:
-  - {fileID: 2100000, guid: 3f6ea6b233ba1514c841f30fece64aa2, type: 2}
+  - {fileID: 2100000, guid: 3c63488a1c5ccec4182795681248a2f0, type: 2}
   - {fileID: 2100000, guid: bdc6294f259f95d4aa9fdc7cff871399, type: 2}
   - {fileID: 2100000, guid: 54352c68e44f02e4b8b968f973b6d34d, type: 2}
   - {fileID: 2100000, guid: df57d86f6f80bd445b6f72e73a918320, type: 2}
@@ -1886,7 +1889,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mat:
-  - {fileID: 2100000, guid: 3f6ea6b233ba1514c841f30fece64aa2, type: 2}
+  - {fileID: 2100000, guid: 3c63488a1c5ccec4182795681248a2f0, type: 2}
   - {fileID: 2100000, guid: bdc6294f259f95d4aa9fdc7cff871399, type: 2}
   - {fileID: 2100000, guid: 54352c68e44f02e4b8b968f973b6d34d, type: 2}
   - {fileID: 2100000, guid: df57d86f6f80bd445b6f72e73a918320, type: 2}
@@ -1903,7 +1906,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mat:
-  - {fileID: 2100000, guid: 3f6ea6b233ba1514c841f30fece64aa2, type: 2}
+  - {fileID: 2100000, guid: 3c63488a1c5ccec4182795681248a2f0, type: 2}
   - {fileID: 2100000, guid: bdc6294f259f95d4aa9fdc7cff871399, type: 2}
   - {fileID: 2100000, guid: 54352c68e44f02e4b8b968f973b6d34d, type: 2}
   - {fileID: 2100000, guid: df57d86f6f80bd445b6f72e73a918320, type: 2}
@@ -1920,7 +1923,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mat:
-  - {fileID: 2100000, guid: 3f6ea6b233ba1514c841f30fece64aa2, type: 2}
+  - {fileID: 2100000, guid: 3c63488a1c5ccec4182795681248a2f0, type: 2}
   - {fileID: 2100000, guid: bdc6294f259f95d4aa9fdc7cff871399, type: 2}
   - {fileID: 2100000, guid: 54352c68e44f02e4b8b968f973b6d34d, type: 2}
   - {fileID: 2100000, guid: df57d86f6f80bd445b6f72e73a918320, type: 2}
@@ -2014,14 +2017,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1085498059}
-  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -655.2495, y: 268.98712, z: 77.2518}
   m_LocalScale: {x: 47.52922, y: 1, z: 50.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1573007536}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!1 &1120126554
 GameObject:
   m_ObjectHideFlags: 0
@@ -2154,7 +2157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mat:
-  - {fileID: 2100000, guid: 3f6ea6b233ba1514c841f30fece64aa2, type: 2}
+  - {fileID: 2100000, guid: 3c63488a1c5ccec4182795681248a2f0, type: 2}
   - {fileID: 2100000, guid: bdc6294f259f95d4aa9fdc7cff871399, type: 2}
   - {fileID: 2100000, guid: 54352c68e44f02e4b8b968f973b6d34d, type: 2}
   - {fileID: 2100000, guid: df57d86f6f80bd445b6f72e73a918320, type: 2}
@@ -3619,7 +3622,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mat:
-  - {fileID: 2100000, guid: 3f6ea6b233ba1514c841f30fece64aa2, type: 2}
+  - {fileID: 2100000, guid: 3c63488a1c5ccec4182795681248a2f0, type: 2}
   - {fileID: 2100000, guid: bdc6294f259f95d4aa9fdc7cff871399, type: 2}
   - {fileID: 2100000, guid: 54352c68e44f02e4b8b968f973b6d34d, type: 2}
   - {fileID: 2100000, guid: df57d86f6f80bd445b6f72e73a918320, type: 2}
@@ -4352,7 +4355,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mat:
-  - {fileID: 2100000, guid: 3f6ea6b233ba1514c841f30fece64aa2, type: 2}
+  - {fileID: 2100000, guid: 3c63488a1c5ccec4182795681248a2f0, type: 2}
   - {fileID: 2100000, guid: bdc6294f259f95d4aa9fdc7cff871399, type: 2}
   - {fileID: 2100000, guid: 54352c68e44f02e4b8b968f973b6d34d, type: 2}
   - {fileID: 2100000, guid: df57d86f6f80bd445b6f72e73a918320, type: 2}
@@ -4369,7 +4372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mat:
-  - {fileID: 2100000, guid: 3f6ea6b233ba1514c841f30fece64aa2, type: 2}
+  - {fileID: 2100000, guid: 3c63488a1c5ccec4182795681248a2f0, type: 2}
   - {fileID: 2100000, guid: bdc6294f259f95d4aa9fdc7cff871399, type: 2}
   - {fileID: 2100000, guid: 54352c68e44f02e4b8b968f973b6d34d, type: 2}
   - {fileID: 2100000, guid: df57d86f6f80bd445b6f72e73a918320, type: 2}
@@ -4386,7 +4389,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mat:
-  - {fileID: 2100000, guid: 3f6ea6b233ba1514c841f30fece64aa2, type: 2}
+  - {fileID: 2100000, guid: 3c63488a1c5ccec4182795681248a2f0, type: 2}
   - {fileID: 2100000, guid: bdc6294f259f95d4aa9fdc7cff871399, type: 2}
   - {fileID: 2100000, guid: 54352c68e44f02e4b8b968f973b6d34d, type: 2}
   - {fileID: 2100000, guid: df57d86f6f80bd445b6f72e73a918320, type: 2}
@@ -4403,7 +4406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mat:
-  - {fileID: 2100000, guid: 3f6ea6b233ba1514c841f30fece64aa2, type: 2}
+  - {fileID: 2100000, guid: 3c63488a1c5ccec4182795681248a2f0, type: 2}
   - {fileID: 2100000, guid: bdc6294f259f95d4aa9fdc7cff871399, type: 2}
   - {fileID: 2100000, guid: 54352c68e44f02e4b8b968f973b6d34d, type: 2}
   - {fileID: 2100000, guid: df57d86f6f80bd445b6f72e73a918320, type: 2}
@@ -4810,7 +4813,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mat:
-  - {fileID: 2100000, guid: 3f6ea6b233ba1514c841f30fece64aa2, type: 2}
+  - {fileID: 2100000, guid: 3c63488a1c5ccec4182795681248a2f0, type: 2}
   - {fileID: 2100000, guid: bdc6294f259f95d4aa9fdc7cff871399, type: 2}
   - {fileID: 2100000, guid: 54352c68e44f02e4b8b968f973b6d34d, type: 2}
   - {fileID: 2100000, guid: df57d86f6f80bd445b6f72e73a918320, type: 2}
