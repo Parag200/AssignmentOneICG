@@ -329,7 +329,7 @@ GameObject:
   - component: {fileID: 327841421}
   m_Layer: 0
   m_Name: Lava
-  m_TagString: Untagged
+  m_TagString: lava
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -991,6 +991,7 @@ MonoBehaviour:
   speed: 5
   JumpForce: 10
   isGround: 0
+  dead: 0
 --- !u!1 &1085498059
 GameObject:
   m_ObjectHideFlags: 0

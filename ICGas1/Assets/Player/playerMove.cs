@@ -8,6 +8,7 @@ public class playerMove : MonoBehaviour
     [SerializeField] float JumpForce = 10.0f;
     private Rigidbody rb;
     public bool isGround;
+    public bool dead=false;
 
     // Start is called before the first frame update
     void Start()
@@ -48,6 +49,11 @@ public class playerMove : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         isGround = true;
+
+        if (rb.gameObject.CompareTag("lava"))
+        {
+            dead = true;
+        }
     }
 
     private void OnCollisionExit(Collision collision)
