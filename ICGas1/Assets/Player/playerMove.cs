@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class playerMove : MonoBehaviour
 {
-    [SerializeField] float speed = 4.0f;
-    [SerializeField] float JumpForce = 6.0f;
+    private float speed = 4.0f;
+    private float JumpForce = 6.0f;
     private Rigidbody rb;
     public bool isGround;
    
@@ -25,10 +25,10 @@ public class playerMove : MonoBehaviour
 
             rb.velocity = new Vector3(verticalInput * speed, rb.velocity.y, horizontalInput * -speed);
 
-        if (Input.GetKey(KeyCode.Space) && isGround == true)
+        if (Input.GetKey("space") && isGround==true)
         {
             //rb.transform.Translate(0f, JumpForce * Time.deltaTime, 0f);
-            rb.velocity = new Vector3(0f, JumpForce, 0f);
+            rb.velocity = new Vector3(rb.velocity.x, JumpForce, rb.velocity.z);
         }
 
         
@@ -36,18 +36,36 @@ public class playerMove : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        isGround = true;
+        if (collision.gameObject.name==("Floor"))
+        {
+            isGround = true;
+            Debug.Log("parag is cool");
+        }
+       
 
     }
 
     private void OnCollisionExit(Collision collision)
     {
-        isGround = false;
+        if (collision.gameObject.name==("Floor"))
+        {
+            isGround = false;
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene("Dead");
+
+        if (other.gameObject.name==("DeathTrigger"))
+        {
+            SceneManager.LoadScene("Dead");
+        }
+
+        else if (other.gameObject.name == ("Trigger"))
+        {
+            SceneManager.LoadScene("Win");
+        }
+
     }
 }
 
