@@ -23,6 +23,11 @@ public class playerMove : MonoBehaviour
             rb.transform.Translate(speed*Time.deltaTime,0f,0f);
         }
 
+        else if (Input.GetKey(KeyCode.S))
+        {
+            rb.transform.Translate(-speed * Time.deltaTime, 0f, 0f);
+        }
+
         else if (Input.GetKey(KeyCode.D))
         {
             rb.transform.Translate(0f, 0f, -speed * Time.deltaTime);
