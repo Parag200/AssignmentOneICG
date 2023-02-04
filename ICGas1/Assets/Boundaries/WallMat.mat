@@ -62,7 +62,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _myDiffuse:
         m_Texture: {fileID: 2800000, guid: ced336d2e8d54a8439c7a2bf0570f211, type: 3}
-        m_Scale: {x: 2, y: 2}
+        m_Scale: {x: 4, y: 4}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
@@ -82,7 +82,7 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
-    - _mySlider: 48.7
+    - _mySlider: 4.7
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Emission: {r: 1, g: 1, b: 1, a: 1}
