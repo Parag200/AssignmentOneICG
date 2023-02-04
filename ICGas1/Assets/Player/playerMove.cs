@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class playerMove : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class playerMove : MonoBehaviour
     [SerializeField] float JumpForce = 10.0f;
     private Rigidbody rb;
     public bool isGround;
-    public bool dead=false;
+   
 
     // Start is called before the first frame update
     void Start()
@@ -44,20 +45,22 @@ public class playerMove : MonoBehaviour
             rb.transform.Translate(0f, JumpForce * Time.deltaTime, 0f);
         }
 
+        
     }
 
     private void OnCollisionEnter(Collision collision)
     {
         isGround = true;
 
-        if (rb.gameObject.CompareTag("lava"))
-        {
-            dead = true;
-        }
     }
 
     private void OnCollisionExit(Collision collision)
     {
         isGround = false;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        SceneManager.LoadScene("Dead");
     }
 }
