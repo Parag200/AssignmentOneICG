@@ -6,15 +6,11 @@ public class Lights : MonoBehaviour
 {
 
     public GameObject[] pointLight;
-    public Material[] mat;
-    Renderer rend;
-
+    
     // Start is called before the first frame update
     void Start()
     {
-        rend = GetComponent<Renderer>();
-        rend.enabled = true;
-        rend.sharedMaterial = mat[0];
+       
     }
 
 
@@ -37,5 +33,7 @@ public class Lights : MonoBehaviour
             pointLight[3].SetActive(true);
             Debug.Log("Released1");
         }
+
+     
     }
 }

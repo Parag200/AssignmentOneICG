@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class playerMove : MonoBehaviour
 {
-    private float speed = 4.0f;
-    private float JumpForce = 6.0f;
+    private float speed = 6.0f;
+    private float JumpForce = 5.0f;
     private Rigidbody rb;
     public bool isGround;
    
