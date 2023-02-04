@@ -864,3 +864,97 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 731.672492 seconds.
+  path: Assets/Lights/SpecMat.mat
+  artifactKey: Guid(54352c68e44f02e4b8b968f973b6d34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lights/SpecMat.mat using Guid(54352c68e44f02e4b8b968f973b6d34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452f3fb551fefb1f8c552e2881cf2fa1') in 0.119904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.376711 seconds.
+  path: Assets/Lights/SpecularShader.shader
+  artifactKey: Guid(0c258d5619a48d94a89e243631ff9e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lights/SpecularShader.shader using Guid(0c258d5619a48d94a89e243631ff9e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c36b0ac7dba87b459f47235604d415') in 0.005797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 92.420298 seconds.
+  path: Assets/Lights/SpecularShader.shader
+  artifactKey: Guid(0c258d5619a48d94a89e243631ff9e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lights/SpecularShader.shader using Guid(0c258d5619a48d94a89e243631ff9e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e09de4de37e0100290232fdddcd48d9') in 0.005523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 242.765962 seconds.
+  path: Assets/Lights/AmbientMat.mat
+  artifactKey: Guid(bdc6294f259f95d4aa9fdc7cff871399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lights/AmbientMat.mat using Guid(bdc6294f259f95d4aa9fdc7cff871399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1c04f06bb7a4d5034d958ff8074d04') in 0.018280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.463605 seconds.
+  path: Assets/Lights/AmbientShader.shader
+  artifactKey: Guid(1422b8f9600eeb84bbf304ffabeaba3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lights/AmbientShader.shader using Guid(1422b8f9600eeb84bbf304ffabeaba3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84df6bd530aa30171947ef67ddc795a') in 0.003640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.725086 seconds.
+  path: Assets/Lights/AmbientShader.shader
+  artifactKey: Guid(1422b8f9600eeb84bbf304ffabeaba3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lights/AmbientShader.shader using Guid(1422b8f9600eeb84bbf304ffabeaba3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae3081e7836c0c287036ece54b31b43') in 0.005270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.017914 seconds.
+  path: Assets/Lights/AmbientMat.mat
+  artifactKey: Guid(bdc6294f259f95d4aa9fdc7cff871399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lights/AmbientMat.mat using Guid(bdc6294f259f95d4aa9fdc7cff871399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731c1e8d16c754bc68f527d05df52365') in 0.030546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 507.126782 seconds.
+  path: Assets/Lights/SpecularShader.shader
+  artifactKey: Guid(0c258d5619a48d94a89e243631ff9e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lights/SpecularShader.shader using Guid(0c258d5619a48d94a89e243631ff9e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd339548903240cc32d1f09c4ac833303') in 0.003456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.274244 seconds.
+  path: Assets/Lights/SpecMat.mat
+  artifactKey: Guid(54352c68e44f02e4b8b968f973b6d34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lights/SpecMat.mat using Guid(54352c68e44f02e4b8b968f973b6d34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19e4fc0746711023b6f3c4a97f7cf50') in 0.015738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.296633 seconds.
+  path: Assets/Lights/SpecShader.shader
+  artifactKey: Guid(5eda61a6c2b98cf45b2bf230b0c30286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lights/SpecShader.shader using Guid(5eda61a6c2b98cf45b2bf230b0c30286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f571946679ba1bea63ac20ea2bc1553c') in 0.009403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.544282 seconds.
+  path: Assets/Lights/SpecShader.shader
+  artifactKey: Guid(5eda61a6c2b98cf45b2bf230b0c30286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lights/SpecShader.shader using Guid(5eda61a6c2b98cf45b2bf230b0c30286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457b6a9501249cc815ea9a19a92f11b6') in 0.002873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 476.668305 seconds.
+  path: Assets/Lights/AmbientMat.mat
+  artifactKey: Guid(bdc6294f259f95d4aa9fdc7cff871399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lights/AmbientMat.mat using Guid(bdc6294f259f95d4aa9fdc7cff871399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8678fbdaf4ec7e8e29b8d0bace28ae6') in 0.020569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 316.655444 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bd036785823e2281556a384dd6489b') in 0.141172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f94a03e0efeac898eddecc7454aab4') in 0.024594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63acc93f8333cff6af3953befece50c9') in 0.048618 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
