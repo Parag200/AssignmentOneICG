@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class playerMove : MonoBehaviour
 {
-    [SerializeField] float speed = 10.0f;
-    [SerializeField] float JumpForce = 10.0f;
+    [SerializeField] float speed = 4.0f;
+    [SerializeField] float JumpForce = 6.0f;
     private Rigidbody rb;
     public bool isGround;
    
@@ -20,29 +20,15 @@ public class playerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.W))
-        {
-            rb.transform.Translate(speed*Time.deltaTime,0f,0f);
-        }
+            float horizontalInput = Input.GetAxis("Horizontal");
+            float verticalInput = Input.GetAxis("Vertical");
 
-        else if (Input.GetKey(KeyCode.S))
-        {
-            rb.transform.Translate(-speed * Time.deltaTime, 0f, 0f);
-        }
+            rb.velocity = new Vector3(verticalInput * speed, rb.velocity.y, horizontalInput * -speed);
 
-        else if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.Space) && isGround == true)
         {
-            rb.transform.Translate(0f, 0f, -speed * Time.deltaTime);
-        }
-
-        else if (Input.GetKey(KeyCode.A))
-        {
-            rb.transform.Translate(0f, 0f, speed * Time.deltaTime);
-        }
-
-        else if (Input.GetKey(KeyCode.Space) && isGround == true)
-        {
-            rb.transform.Translate(0f, JumpForce * Time.deltaTime, 0f);
+            //rb.transform.Translate(0f, JumpForce * Time.deltaTime, 0f);
+            rb.velocity = new Vector3(0f, JumpForce, 0f);
         }
 
         
@@ -64,3 +50,4 @@ public class playerMove : MonoBehaviour
         SceneManager.LoadScene("Dead");
     }
 }
+
