@@ -36,10 +36,10 @@ public class playerMove : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name==("Floor"))
+        if (collision.gameObject.tag==("Floor"))
         {
             isGround = true;
-            Debug.Log("parag is cool");
+            Debug.Log("onGround");
         }
        
 
@@ -47,7 +47,7 @@ public class playerMove : MonoBehaviour
 
     private void OnCollisionExit(Collision collision)
     {
-        if (collision.gameObject.name==("Floor"))
+        if (collision.gameObject.tag==("Floor"))
         {
             isGround = false;
         }
