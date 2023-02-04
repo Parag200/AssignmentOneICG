@@ -477,3 +477,69 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 552.912674 seconds.
+  path: Assets/Boundaries
+  artifactKey: Guid(16d6b2af01ab1df4c98ce8cb8b67a69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boundaries using Guid(16d6b2af01ab1df4c98ce8cb8b67a69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d4a67af41ff14313e9d3c48ebb6653') in 0.010479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.986320 seconds.
+  path: Assets/Boundaries/WallMat.mat
+  artifactKey: Guid(58e5decdf264c304a94585b6ba69ba76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boundaries/WallMat.mat using Guid(58e5decdf264c304a94585b6ba69ba76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5fed50166be086c1120cc41cee96ab') in 0.102131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 478.766157 seconds.
+  path: Assets/Boundaries/LavaShader.shader
+  artifactKey: Guid(65a56b3a42a2b5a43938ce9aaeba8952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boundaries/LavaShader.shader using Guid(65a56b3a42a2b5a43938ce9aaeba8952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ee333a21cd8e5a9c6c4cc16d46b68b') in 0.006312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.198460 seconds.
+  path: Assets/Boundaries/LavaShader.shader
+  artifactKey: Guid(65a56b3a42a2b5a43938ce9aaeba8952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boundaries/LavaShader.shader using Guid(65a56b3a42a2b5a43938ce9aaeba8952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8672e49aedb57950006c158da755b4') in 0.007815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.159241 seconds.
+  path: Assets/Lava/LavaShader.shader
+  artifactKey: Guid(9e8662c680b068c4ab89774aa20ddf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava/LavaShader.shader using Guid(9e8662c680b068c4ab89774aa20ddf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4462d33a5e508b971d986b50091b8e') in 0.002286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001477 seconds.
+  path: Assets/Lava/LavaMat.mat
+  artifactKey: Guid(68d4b8336d9dd1c47a1628e271ef4dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava/LavaMat.mat using Guid(68d4b8336d9dd1c47a1628e271ef4dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424f03c42e6a913693a2ed42d346cea4') in 0.022270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 99.797186 seconds.
+  path: Assets/Lava/LavaMat.mat
+  artifactKey: Guid(68d4b8336d9dd1c47a1628e271ef4dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava/LavaMat.mat using Guid(68d4b8336d9dd1c47a1628e271ef4dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fabcc81aaa1950950621269f188c628') in 0.009386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 125.940075 seconds.
+  path: Assets/Boundaries/WallMat.mat
+  artifactKey: Guid(58e5decdf264c304a94585b6ba69ba76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boundaries/WallMat.mat using Guid(58e5decdf264c304a94585b6ba69ba76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4607139a140acb99fa1ec802ead9dc4c') in 0.021153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.799185 seconds.
+  path: Assets/Boundaries/Material_2001.jpg
+  artifactKey: Guid(5fc844bf1d8d9aa489360b6aaf0b225c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boundaries/Material_2001.jpg using Guid(5fc844bf1d8d9aa489360b6aaf0b225c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f400809b8a2e8d766ec690712ca47df') in 0.023060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.366910 seconds.
+  path: Assets/Boundaries/Stone_Path_007_basecolor.jpg
+  artifactKey: Guid(ced336d2e8d54a8439c7a2bf0570f211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boundaries/Stone_Path_007_basecolor.jpg using Guid(ced336d2e8d54a8439c7a2bf0570f211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebacb0c610cf2bcef167c8abaa18aae') in 0.015581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 77.834488 seconds.
+  path: Assets/Boundaries/WallMat.mat
+  artifactKey: Guid(58e5decdf264c304a94585b6ba69ba76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boundaries/WallMat.mat using Guid(58e5decdf264c304a94585b6ba69ba76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f5987c23d6128779cfde383c7744e6') in 0.015791 seconds 
