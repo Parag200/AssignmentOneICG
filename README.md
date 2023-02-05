@@ -26,7 +26,7 @@ looking golden with the behind of the skull lit very nicely from the lava lighti
 on the skull based off the texture given, allowing the skulls to catch the players eyes as visually pleasing. 
 
 
-Slide Deck Link:
+Slide Deck Link: https://docs.google.com/presentation/d/1YXP5EyvWLPdmMngdt-yb-HTUtmF8Y_R9x3TgRF-LtyE/edit?usp=sharing
 
 Resources (APA7)
 
