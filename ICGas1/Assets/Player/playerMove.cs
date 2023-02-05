@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class playerMove : MonoBehaviour
 {
-    private float speed = 6.0f;
-    private float JumpForce = 5.0f;
+    private float speed = 7.0f;
+    private float JumpForce = 4.5f;
     private Rigidbody rb;
     public bool isGround;
    
@@ -25,32 +25,16 @@ public class playerMove : MonoBehaviour
 
             rb.velocity = new Vector3(verticalInput * speed, rb.velocity.y, horizontalInput * -speed);
 
-        if (Input.GetKey("space") && isGround==true)
+        
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             rb.velocity = new Vector3(rb.velocity.x, JumpForce, rb.velocity.z);
         }
 
-        
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag==("Floor"))
-        {
-            isGround = true;
-            Debug.Log("onGround");
-        }
        
-
+       
     }
-
-    private void OnCollisionExit(Collision collision)
-    {
-        if (collision.gameObject.tag==("Floor"))
-        {
-            isGround = false;
-        }
-    }
+    
 
     private void OnTriggerEnter(Collider other)
     {

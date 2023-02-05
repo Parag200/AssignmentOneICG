@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: RimLightSkullMat
+  m_Name: RimLightMat
   m_Shader: {fileID: 4800000, guid: 5621990c59e30504f8391dd782b9e1c8, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []

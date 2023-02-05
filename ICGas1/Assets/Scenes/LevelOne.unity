@@ -1567,8 +1567,8 @@ GameObject:
   - component: {fileID: 1058037711}
   - component: {fileID: 1058037710}
   - component: {fileID: 1058037713}
-  - component: {fileID: 1058037715}
   - component: {fileID: 1058037716}
+  - component: {fileID: 1058037717}
   m_Layer: 0
   m_Name: player
   m_TagString: MainPlayer
@@ -1634,7 +1634,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1058037708}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -219.2, y: -4.31, z: 5.59}
+  m_LocalPosition: {x: -219.2, y: -4.236, z: 5.59}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1658,20 +1658,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!136 &1058037715
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1058037708}
-  m_Material: {fileID: 13400000, guid: c2f316739b207ba47902182d672ca1eb, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.58
-  m_Height: 2.12
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1058037716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1685,6 +1671,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isGround: 0
+--- !u!136 &1058037717
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058037708}
+  m_Material: {fileID: 13400000, guid: c2f316739b207ba47902182d672ca1eb, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1065553220
 PrefabInstance:
   m_ObjectHideFlags: 0
