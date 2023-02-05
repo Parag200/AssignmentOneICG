@@ -25,9 +25,8 @@ public class playerMove : MonoBehaviour
 
             rb.velocity = new Vector3(verticalInput * speed, rb.velocity.y, horizontalInput * -speed);
 
-        if (Input.GetKey("space") && isGround==false)
+        if (Input.GetKey("space") && isGround==true)
         {
-            //rb.transform.Translate(0f, JumpForce * Time.deltaTime, 0f);
             rb.velocity = new Vector3(rb.velocity.x, JumpForce, rb.velocity.z);
         }
 
