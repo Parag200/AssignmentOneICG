@@ -9,6 +9,7 @@ Shader "Custom/BumpShader"
 		SubShader{
 		CGPROGRAM
 		#pragma surface surf Lambert
+
 		sampler2D _myDiffuse;
 		sampler2D _myBump;
 		half _mySlider;

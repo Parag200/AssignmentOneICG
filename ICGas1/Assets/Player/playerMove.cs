@@ -8,7 +8,7 @@ public class playerMove : MonoBehaviour
     private float speed = 7.0f;
     private float JumpForce = 4.5f;
     private Rigidbody rb;
-    public bool isGround;
+    
    
 
     // Start is called before the first frame update

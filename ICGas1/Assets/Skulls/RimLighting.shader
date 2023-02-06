@@ -22,9 +22,9 @@ Shader "Custom/RimLighting"
             float _RimPower;
             void surf(Input IN, inout SurfaceOutput o)
             {
-                //half rim = dot(normalize(IN.viewDir), o.Normal);
+  
                 half rim = 1.0 - saturate(dot(normalize(IN.viewDir), o.Normal));
-                //o.Emission = _RimColor.rbg * rim;
+               
                 o.Emission = _RimColor.rgb * pow(rim, _RimPower);
             }
         ENDCG
